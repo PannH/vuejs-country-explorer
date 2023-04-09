@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --lightgray: #efefef;
+   --gray: #e8e8e8;
+   --darkgray: #e4e4e4;
+   --blue: #3865ed;
+}
+
+body {
+   font-family: Poppins, sans-serif;
+
+   background-color: var(--lightgray);
+
+   min-height: 100vh;
+}
